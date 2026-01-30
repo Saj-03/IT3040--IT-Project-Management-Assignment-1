@@ -45,8 +45,8 @@ test.describe('Negative Functional Tests (10 Tests)', () => {
     await page.waitForTimeout(3000);
     const pageText = await page.textContent('body');
     
-    expect(pageText).toContain('වස්සක්'); // Missing ඇ
-    expect(pageText).toContain('කර්ල'); // Wrong ending
+    expect(pageText).toContain('වස්සක්');
+    expect(pageText).toContain('කර්ල'); 
     
     await page.screenshot({ path: 'screenshots/Neg_Fun_0004.png' });
   });
@@ -56,8 +56,8 @@ test.describe('Negative Functional Tests (10 Tests)', () => {
     await page.waitForTimeout(3000);
     const pageText = await page.textContent('body');
     
-    expect(pageText).toContain('කැම'); // Should be කෑම
-    expect(pageText).toContain('පුලුව්න්'); // Should be පුළුවන්
+    expect(pageText).toContain('කැම'); 
+    expect(pageText).toContain('පුලුව්න්'); 
     
     await page.screenshot({ path: 'screenshots/Neg_Fun_0005.png' });
   });
@@ -77,7 +77,6 @@ test.describe('Negative Functional Tests (10 Tests)', () => {
     await page.waitForTimeout(3000);
     const pageText = await page.textContent('body');
     
-    // Should NOT produce correct output
     expect(pageText).not.toContain('දැන් වෙලාව 12ත් පහුවෙලා');
     
     await page.screenshot({ path: 'screenshots/Neg_Fun_0007.png' });
