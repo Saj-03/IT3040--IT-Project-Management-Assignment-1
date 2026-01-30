@@ -11,8 +11,8 @@ Automated Playwright tests for Singlish to Sinhala translator (https://www.swift
 ## Test Coverage
 - **24 Positive Functional Tests** - System works correctly
 - **10 Negative Functional Tests** - System fails as expected  
-- **3 UI Tests** (1 Positive, 2 Negative) - Real-time conversion & UI behavior
-- **Total:** 37 Test Cases
+- **3 UI Tests** (1 Positive, 1 Negative) - Real-time conversion & UI behavior
+- **Total:** 36 Test Cases
 
 ## Installation
 ```bash
