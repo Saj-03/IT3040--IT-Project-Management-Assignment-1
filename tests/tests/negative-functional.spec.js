@@ -87,8 +87,8 @@ test.describe('Negative Functional Tests (10 Tests)', () => {
     await page.waitForTimeout(3000);
     const pageText = await page.textContent('body');
     
-    expect(pageText).toMatch(/w/); // Contains English 'w'
-    expect(pageText).toContain('ඔක'); // Should be ඕක
+    expect(pageText).toMatch(/w/); 
+    expect(pageText).toContain('ඔක'); 
     
     await page.screenshot({ path: 'screenshots/Neg_Fun_0008.png' });
   });
@@ -98,8 +98,8 @@ test.describe('Negative Functional Tests (10 Tests)', () => {
     await page.waitForTimeout(3000);
     const pageText = await page.textContent('body');
     
-    expect(pageText).toMatch(/w/); // English 'w' in output
-    expect(pageText).toContain('මර'); // Should be මාර
+    expect(pageText).toMatch(/w/); 
+    expect(pageText).toContain('මර'); 
     
     await page.screenshot({ path: 'screenshots/Neg_Fun_0009.png' });
   });
@@ -109,8 +109,8 @@ test.describe('Negative Functional Tests (10 Tests)', () => {
     await page.waitForTimeout(3000);
     const pageText = await page.textContent('body');
     
-    expect(pageText).toContain('ඔයට'); // Should be ඔයාට
-    expect(pageText).toContain('න්ම්'); // Should be නම්
+    expect(pageText).toContain('ඔයට'); 
+    expect(pageText).toContain('න්ම්'); 
     
     await page.screenshot({ path: 'screenshots/Neg_Fun_0010.png' });
   });
