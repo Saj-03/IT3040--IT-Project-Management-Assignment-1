@@ -21,3 +21,5 @@ Automated Playwright tests for Singlish to Sinhala translator (https://www.swift
 # 3. Open terminal in project folder
 npm install
 npx playwright install chromium
+
+github link - https://github.com/Saj-03/IT3040--IT-Project-Management-Assignment-1 
