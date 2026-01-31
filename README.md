@@ -22,4 +22,10 @@ Automated Playwright tests for Singlish to Sinhala translator (https://www.swift
 npm install
 npx playwright install chromium
 
+## Generating Reports
+
+To view interactive test reports with trace viewer:
+```bash
+npx playwright test --reporter=html --ui
+
 github link - https://github.com/Saj-03/IT3040--IT-Project-Management-Assignment-1 
